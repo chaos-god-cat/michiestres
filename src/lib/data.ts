@@ -224,7 +224,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
   },
   {
     id: 'estatico-1',
-    title: 'Retrato cósmico estático',
+    title: 'Emote de OC animado',
     category: 'illustration',
     description: 'Pieza de la serie de gatos cósmicos lista para fondos de pantalla.',
     imageUrl: '/gallery/michigaleria_2.mp4',
