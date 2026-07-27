@@ -24,7 +24,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-1',
     title: 'Comisión gatuna',
-    category: 'fokinshit',
+    category: 'pet',
     description: 'Retrato de mascota hecho para un cliente que deseaba poder recordarla eternamente. Bajo esa premisa, busqué reinventar el significado de fallecer y mezclar los elementos para conectar con el cliente.',
     year: '2025',
     role: 'Ilustración digital y animación sutil',
@@ -40,7 +40,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-2',
     title: 'Guardián del más allá',
-    category: 'animation',
+    category: 'pet',
     description: 'Comisión para recordar a los amigos que ya no están, pero que siempre se mantendrán cerca de un modo u otro. Fue un encargo por medio de la plataforma VGen para público extranjero',
     year: '2025',
     role: 'Ilustración digital',
@@ -55,7 +55,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-3',
     title: 'Keyla',
-    category: 'illustration',
+    category: 'pet',
     description: 'Ilustración del personaje del mismo nombre para una jugadora de Dungeons & Dragons. La pieza fue realizada en Clip Studio Paint siguiendo sus referencias y ayudándola a mejorar su diseño, para posterior animación en After Effects.',
     year: '2025',
     role: 'Ilustración digital y Animación sutil',
