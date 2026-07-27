@@ -23,12 +23,12 @@ export interface ArtworkSet {
 export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-1',
-    title: 'Cyber Cat & Churn Nebula',
+    title: 'Comisión gatuna',
     category: 'process',
-    description: 'Ilustración con estética punk-cósmica. El proceso muestra la evolución desde las primeras masas de composición y color plano hasta el render final con efectos de aberración cromática, brillo neón y una versión animada sutil para post-producción.',
+    description: 'Retrato de mascota hecho para un cliente que deseaba poder recordarla eternamente. Bajo esa premisa, busqué reinventar el significado de fallecer y mezclar los elementos para conectar con el cliente.',
     year: '2025',
-    role: 'Ilustración y animación sutil',
-    tags: ['boceto', 'lineart', 'color', 'neon', 'cyberpunk'],
+    role: 'Ilustración digital y animación sutil',
+    tags: ['boceto', 'lineart', 'color', 'animal & creatures', 'After Effects', 'Clip Studio Paint', 'Animation'],
     featured: true,
     items: [
       { url: '/gallery/Carrusel1_Final.mp4', type: 'video', label: 'Render e Intro Animada' },
@@ -39,48 +39,52 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   },
   {
     id: 'illus-set-2',
-    title: 'Cosmic Beast & Particle Stars',
+    title: 'Guardián del más allá',
     category: 'process',
-    description: 'Estudio de personaje fantástico con paleta neón brillante sobre fondo estelar oscuro. Se planificaron las capas desde el inicio en Photoshop para permitir el rigging posterior y la animación en After Effects con la herramienta Puppet.',
-    year: '2024',
+    description: 'Comisión para recordar a los amigos que ya no están, pero que siempre se mantendrán cerca de un modo u otro. Fue un encargo por medio de la plataforma VGen para público extranjero',
+    year: '2025',
     role: 'Ilustración digital',
-    tags: ['boceto', 'lineart', 'post-procesado', 'fantasía', 'particles'],
+    tags: ['boceto', 'lineart', 'color', 'animal & creatures', 'Clip Studio Paint'],
     featured: true,
     items: [
-      { url: '/gallery/Carrusel2_3.png.png', type: 'image', label: 'Render con Capas' },
-      { url: '/gallery/Carrusel2_2.png.png', type: 'image', label: 'Lineart Limpio' },
-      { url: '/gallery/Carrusel2_1.png', type: 'image', label: 'Boceto Inicial' }
+      { url: '/gallery/Carrusel2_1.png', type: 'image', label: 'Ilustración final' },
+      { url: '/gallery/Carrusel2_3.png.png', type: 'image', label: 'Lineart' },
+      { url: '/gallery/Carrusel2_2.png.png', type: 'image', label: 'Colores base' }
     ]
   },
   {
     id: 'illus-set-3',
-    title: 'Starlight Guardian / Guardián Estelar',
+    title: 'Keyla',
     category: 'process',
-    description: 'Fusión de estética anime de los 90 con toques cyberpunk modernos. La paleta neón azul y rosa brillante destaca las líneas estilizadas del lineart. La animación destaca los cabellos y las partículas flotantes en el espacio.',
+    description: 'Ilustración del personaje del mismo nombre para una jugadora de Dungeons & Dragons. La pieza fue realizada en Clip Studio Paint siguiendo sus referencias y ayudándola a mejorar su diseño, para posterior animación en After Effects.',
     year: '2025',
-    role: 'Ilustración y Rigging',
-    tags: ['retro-anime', 'cyberpunk', 'after-effects', 'puppet', 'glow'],
+    role: 'Ilustración digital y Animación sutil',
+    tags: ['boceto', 'lineart', 'color', 'humanoid', 'Clip Studio Paint', 'After Effects', 'Animation'],
     featured: false,
     items: [
-      { url: '/gallery/Carrusel3_1.png.png', type: 'image', label: 'Boceto Estructural' },
-      { url: '/gallery/Carrusel3_2.png.png', type: 'image', label: 'Lineart y Tinta' },
-      { url: '/gallery/Carrusel3_3.png.png', type: 'image', label: 'Volumen y Paleta' },
-      { url: '/gallery/Carrusel3_Final.png.mp4', type: 'video', label: 'Composición y Animación' }
+      { url: '/gallery/Animacion6_3.mp4', type: 'video', label: 'Resultado final' },
+      { url: '/gallery/Animacion6_1.png', type: 'image', label: 'Lineart & Colores base' },
+      { url: '/gallery/Animacion6_2.jpg', type: 'image', label: 'Estática' },
+      { url: '/gallery/Speed.mp4', type: 'video', label: 'Proceso' }
     ]
   },
   {
     id: 'illus-set-4',
-    title: 'Neon Rogue & Street Graffiti',
+    title: 'Un poco más de mi peludo trabajo',
     category: 'process',
-    description: 'Ilustración inspirada en el graffiti urbano y la cultura del street art. Colores ácidos y trazos muy definidos que capturan la rebeldía del diseño de personajes punk.',
-    year: '2024',
+    description: '¡Usa las flechas o desliza para ver más comisiones en las que he trabajado!',
+    year: '2023 - 2026',
     role: 'Ilustración',
-    tags: ['graffiti', 'street-art', 'character-design', 'rough', 'ink'],
+    tags: ['Color', 'Retratos', 'Clip Studio Paint', 'Animation'],
     featured: false,
     items: [
-      { url: '/gallery/estatico-1.png', type: 'image', label: 'Composición Estática' },
-      { url: '/gallery/mJ2YUyi-1.mp4', type: 'video', label: 'Animación 1' },
-      { url: '/gallery/mPixYA0-1.mp4', type: 'video', label: 'Animación 2' }
+      { url: '/gallery/Cats_1.webp', type: 'image'},
+      { url: '/gallery/Cats_2.webp', type: 'image'},
+      { url: '/gallery/Cats_3.jpg', type: 'image'},
+      { url: '/gallery/Cats_4.webp', type: 'image'},
+      { url: '/gallery/Cats_5.webp', type: 'image'},
+      { url: '/gallery/Cats_6.webp', type: 'image'},
+      { url: '/gallery/Cats_7.webp', type: 'image'},
     ]
   }
 ]
@@ -97,8 +101,7 @@ export const ANIMATION_SETS: ArtworkSet[] = [
     tags: ['frame-by-frame', 'japan', 'anime'],
     featured: false,
     items: [
-      { url: '/gallery/Animacion1_1.png', type: 'image', label: 'Keyframe Clave' },
-      { url: '/gallery/Animacion1_2.png.mp4', type: 'video', label: 'Loop de Animación' }
+      { url: '/gallery/animecreditos_1.jpg', type: 'image', label: 'Créditos' },
     ]
   },
   {
@@ -111,8 +114,7 @@ export const ANIMATION_SETS: ArtworkSet[] = [
     tags: ['frame by frame', 'japan', 'anime'],
     featured: false,
     items: [
-      { url: '/gallery/Animacion5_1.png', type: 'image', label: 'Fotograma de Transición' },
-      { url: '/gallery/Animacion5_2.mp4', type: 'video', label: 'Animación Terminada' }
+      { url: '/gallery/animecreditos_2.jpg', type: 'image', label: 'Créditos' },
     ]
   },
   {
@@ -125,69 +127,61 @@ export const ANIMATION_SETS: ArtworkSet[] = [
     tags: ['frame by frame', 'videojuego', 'trailer'],
     featured: false,
     items: [
-      { url: '/gallery/Animacion3_1.png', type: 'image', label: 'Lineart Limpio' },
-      { url: '/gallery/Animacion3_2.mp4', type: 'video', label: 'Animación con Color final' }
+      { url: '/gallery/Animacion3_2.mp4', type: 'video', label: 'Previa' },
+      { url: '/gallery/animecreditos_3.jpg', type: 'image', label: 'Créditos' },
     ]
   },
-  {
-    id: 'anim-set-5',
-    title: 'The Casebook of Arne',
+    {
+    id: 'anim-set-4',
+    title: 'Video musical "Reloj de Arena" por Aki Chan',
     category: 'animation',
-    description: 'Mi trabajo fueron solamente in betweens',
+    description: 'Auxiliar en color',
     year: '2025',
-    role: 'Douga',
-    tags: ['frame by frame', 'japan', 'anime'],
+    role: 'Color',
+    tags: ['frame by frame', 'video musical', 'youtuber'],
     featured: false,
     items: [
-      { url: '/gallery/Animacion4_2.mp4', type: 'video', label: 'In-Between Animation' }
+      { url: '/gallery/animecreditos_4.jpg', type: 'image', label: 'Créditos' },
     ]
-  }
+  },
 ]
 
 // ─── SETS DE FONDOS DE ANIMACIÓN / LANDSCAPES ────────────────────────────────
 export const BACKGROUND_SETS: ArtworkSet[] = [
   {
     id: 'bg-set-2',
-    title: 'Estación de Tren Lluviosa',
+    title: 'Recreaciones',
     category: 'background',
-    description: 'Fondo de exterior con ambiente nostálgico. Recreación inspirada en la atmósfera húmeda y reflectiva de "El Jardín de las Palabras" (Makoto Shinkai), adaptando las luces de neón a la paleta del artista.',
-    year: '2025',
-    role: 'Estudio de Fondo',
+    description: 'El Jardín de las Palabras (Rain Garden) y Frieren Beyond the Journey\'s End,',
+    year: '2024',
+    role: 'Estudio de Fondos',
     tags: ['rain', 'makoto-shinkai', 'nostalgic', 'environments'],
     featured: false,
     items: [
-      { url: '/gallery/Landscape2_1.jpg', type: 'image', label: 'Fase de Valores y Luces' },
-      { url: '/gallery/Landscape2_2.jpg', type: 'image', label: 'Fondo Renderizado Final' }
-    ]
-  },
-  {
-    id: 'bg-set-1',
-    title: 'Callejón Cyber-Street',
-    category: 'background',
-    description: 'Ilustración de fondo urbana con temática nocturna cyberpunk. Comisión entregada seccionada en múltiples capas independientes en Photoshop, facilitando la post-producción y la integración de personajes detrás de los elementos de primer plano.',
-    year: '2024',
-    role: 'Fondo de Animación',
-    tags: ['cyber-street', 'neon-lighting', 'parallax', 'layers'],
-    featured: true,
-    items: [
+      { url: '/gallery/Landscape2_2.jpg', type: 'image', label: 'Fase de Valores y Luces' },
+      { url: '/gallery/Landscape2_1.jpg', type: 'image', label: 'Fondo Renderizado Final' },
       { url: '/gallery/Landscape1_1.jpg', type: 'image', label: 'Bloqueo de Capas' },
       { url: '/gallery/Landscape1_2.jpg', type: 'image', label: 'Detalles y Letreros Neón' },
       { url: '/gallery/Landscape1_Final.gif', type: 'gif', label: 'Fondo Animado Final' }
     ]
   },
   {
-    id: 'bg-set-3',
-    title: 'Frierens Horizon',
+    id: 'bg-set-1',
+    title: 'Un vistazo al futuro',
     category: 'background',
-    description: 'Recreación de un paisaje natural de fantasía de la serie "Frieren Beyond the Journey\'s End". Acomodado con el característico "toque peludo" de Diana en los pastos y nubes cósmicas flotantes.',
+    description: 'Ilustración de fondos para un director de animación en formación. El proyecto postulado para inversionistas en la Universidad Autónoma de Querétaro',
     year: '2025',
-    role: 'Estudio y Estilizado',
-    tags: ['frieren', 'fantasy-landscape', 'clouds', 'toque-peludo'],
-    featured: false,
+    role: 'Fondo de Animación',
+    tags: ['cosmic horror', 'space', 'colorful', 'enviroment'],
+    featured: true,
     items: [
-      { url: '/gallery/Landscape3_1.png', type: 'image', label: 'Fondo Final' }
+      { url: '/gallery/Carrusel4_1.png', type: 'image', label: 'Resultado final' },
+      { url: '/gallery/Carrusel4_2.jpg', type: 'image', label: 'Colores base' },
+      { url: '/gallery/Carrusel4_3.jpg', type: 'image', label: 'Boceto' },
+      { url: '/gallery/Landscape3_1.png', type: 'image', label: 'Resultado final' }
     ]
-  }
+  },
+  
 ]
 
 
@@ -197,33 +191,34 @@ export const STICKER_SETS: ArtworkSet[] = [
     id: 'sticker-set-1',
     title: 'Stickers e iconos ready-to-print',
     category: 'icon',
-    description: 'Assets listos para impresión y redes sociales. Incluye stickers de estilo street-art, iconos y gráficos de alto contraste ideales para arte die-cut.',
+    description: 'Assets listos para impresión y redes sociales. Incluye stickers de estilo street-art, iconos y gráficos de alto contraste. Desde lo tierno hasta lo meme',
     year: '2024',
     role: 'Diseño de Vector / Stickers',
     tags: ['stickers', 'die-cut', 'vectorial', 'neon', 'icons'],
     featured: true,
     items: [
-      { url: '/gallery/Stick_1.png', type: 'image', label: 'Shark Neon Sticker' },
-      { url: '/gallery/Stick_2.png', type: 'image', label: 'Colección Vectorial 01' },
-      { url: '/gallery/Stick_3.jpg', type: 'image', label: 'Stickers Impresos' },
-      { url: '/gallery/Stick_4.png', type: 'image', label: 'Skull Punk' },
-      { url: '/gallery/Stick_5.png', type: 'image', label: 'Colección Completa 02' }
+      { url: '/gallery/Stick_1.png', type: 'image', },
+      { url: '/gallery/Stick_2.png', type: 'image',},
+      { url: '/gallery/Sticker_2.png', type: 'image',},
+      { url: '/gallery/Stick_4.png', type: 'image',},
+      { url: '/gallery/Stick_5.png', type: 'image',}
     ]
   }
 ]
 
 // ─── OTROS ASSETS (ESTÁTICOS / SUELTOS) ──────────────────────────────────────
 export const ADDITIONAL_WORKS: Artwork[] = [
+  //—los primeros dos son videos, hay que revisar —
   {
     id: 'bocetos-1',
-    title: 'Bocetos y Gestos sueltos',
-    category: 'process',
-    description: 'Prácticas diarias de pose y soltura en dibujo digital.',
-    imageUrl: '/gallery/Bocetos_1.png',
-    year: '2024',
+    title: 'Comisión de OC animada',
+    category: 'animation',
+    description: 'Personaje: Amelia Jackman',
+    imageUrl: '/gallery/michigaleria_1.mp4',
+    year: '2025',
     client: null,
-    role: 'Sketching',
-    tags: 'bocetos, sketch, anatomía',
+    role: 'Comisión',
+    tags: 'Commission, Original Character, Simple Animation',
     featured: false,
     order: 10
   },
@@ -232,7 +227,124 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     title: 'Retrato cósmico estático',
     category: 'illustration',
     description: 'Pieza de la serie de gatos cósmicos lista para fondos de pantalla.',
-    imageUrl: '/gallery/estatico-1.png',
+    imageUrl: '/gallery/michigaleria_2.mp4',
+    year: '2025',
+    client: null,
+    role: 'Ilustración',
+    tags: 'cats, cosmic, static',
+    featured: false,
+    order: 11
+  },
+    {
+    id: 'estatico-1',
+    title: 'Victoria',
+    category: 'illustration',
+    description: 'Diseño e Ilustración de personaje original',
+    imageUrl: '/gallery/michigaleria_4.jpg',
+    year: '2025',
+    client: null,
+    role: 'Colores base',
+    tags: 'humanoid, original character, illustration',
+    featured: false,
+    order: 11
+  },
+    {
+        id: 'estatico-1',
+    title: 'Victoria',
+    category: 'illustration',
+    description: 'Diseño e Ilustración de personaje original',
+    imageUrl: '/gallery/michigaleria_3.jpg',
+    year: '2025',
+    client: null,
+    role: 'Resultado final',
+    tags: 'humanoid, original character, illustration',
+    featured: false,
+    order: 11
+  },
+    {
+    id: 'estatico-1',
+    title: 'Práctica de escenario e integración de personaje',
+    category: 'Escala de grises',
+    description: '#Landscape #Cats #Illustration',
+    imageUrl: '/gallery/michigaleria_7.jpg',
+    year: '2024',
+    client: null,
+    role: 'Ilustración',
+    tags: 'cats, landscape, illustration',
+    featured: false,
+    order: 11
+  },
+    {
+    id: 'estatico-1',
+    title: 'Práctica de escenario e integración de personaje',
+    category: 'illustration',
+    description: '#Landscape #Cats #Illustration',
+    imageUrl: '/gallery/michigaleria_6.jpg',
+    year: '2024',
+    client: null,
+    role: 'Ilustración',
+    tags: 'cats, landscape, illustration',
+    featured: false,
+    order: 11
+  },
+    {
+    id: 'estatico-1',
+    title: 'Jaguar Girl',
+    category: 'Escala de grises',
+    description: 'Comisión de retrato de personaje original, estilo semirealista',
+    imageUrl: '/gallery/michigaleria_9.jpg',
+    year: '2025',
+    client: null,
+    role: 'Ilustración',
+    tags: 'cats, cosmic, static',
+    featured: false,
+    order: 11
+  },
+    {
+    id: 'estatico-1',
+    title: 'Retrato cósmico estático',
+    category: 'illustration',
+    description: 'Comisión de retrato de personaje original, estilo semirealista',
+    imageUrl: '/gallery/michigaleria_8.jpg',
+    year: '2025',
+    client: null,
+    role: 'Ilustración',
+    tags: 'cats, cosmic, static',
+    featured: false,
+    order: 11
+  },
+      {
+    id: 'estatico-1',
+    title: 'Planos de Juanburgueso',
+    category: 'Diseño de Personaje',
+    description: 'Se re diseño toda la idea del cliente y se establecieron guías de uso para adaptar a futuro su mascota',
+    imageUrl: '/gallery/michigaleria_11.png',
+    year: '2025',
+    client: null,
+    role: 'Ilustración',
+    tags: 'cats, cosmic, static',
+    featured: false,
+    order: 11
+  },
+    {
+    id: 'estatico-1',
+    title: 'Mavuika',
+    category: 'illustration',
+    description: 'FanArt del personaje de Genshin Impact, Mavuika. Ilustración digital semirealista con inspiración anime',
+    imageUrl: '/gallery/michigaleria_5.jpeg',
+    year: '2024',
+    client: null,
+    role: 'Ilustración',
+    tags: 'cats, cosmic, static',
+    featured: false,
+    order: 11
+  },
+    {
+    id: 'estatico-1',
+    title: 'Emote animado',
+    category: 'animacion',
+    description: 'Perfecto para plataformas digitales como twitch o discord',
+    imageUrl: '/gallery/michigaleria_10.gif',
     year: '2025',
     client: null,
     role: 'Ilustración',

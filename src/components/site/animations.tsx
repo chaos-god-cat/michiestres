@@ -10,7 +10,7 @@ import { ANIMATION_SETS, ArtworkSet } from '@/lib/data'
 const PUBLISHED_CREDITS = [
   { title: 'Fate Strange Fake — Capítulo 02', role: 'Shiage (Color)', detail: 'Anime / Koeda Animation' },
   { title: 'Kimi to Boku — Capítulo 03', role: 'Shiage (Color)', detail: 'Anime / Koeda Animation' },
-  { title: 'Video musical "Reloj de Arena" por Aki Chan', role: 'Shiage (Color)', detail: 'Animación MV / Koeda Animation' },
+  { title: 'Video musical "Reloj de Arena" por Aki Chan', role: 'Shiage (Color)', detail: 'Animación MV / Koeda Animation / Auxiliar de Color' },
   { title: 'Trailer del videojuego "Alice at the End of Her Life"', role: 'Shiage (Color)', detail: 'Videojuego / Koeda Animation' },
   { title: 'The Casebook of Arne', role: 'Douga (In-Between)', detail: 'Anime / Koeda Animation' }
 ]
@@ -253,7 +253,7 @@ function JuanburguesoFeature() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="relative aspect-[4/3] lg:aspect-auto overflow-hidden bg-[#07070f]">
           <video
-            src="/gallery/Carrusel1_Final.mp4"
+            src="/gallery/Animacion5_2.mp4"
             autoPlay
             loop
             muted
@@ -271,17 +271,17 @@ function JuanburguesoFeature() {
             {'// rediseño y animación de intro'}
           </div>
           <h3 className="font-display text-3xl sm:text-4xl leading-tight">
-            Juanburgueso Mascot
+            Juanburgueso
           </h3>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            Juanburgueso es la mascota firma de un director de cine independiente. Se trabajó exhaustivamente en el rediseño del personaje para optimizar su identidad digital, se crearon las guías de uso oficial y se animó la secuencia de introducción de forma mixta. El flujo de trabajo involucró animación tradicional Frame por Frame junto con After Effects Puppet para lograr un movimiento orgánico con alta densidad de keyframes.
+            Juanburgueso es la mascota firma de un director independiente en formación. Trabajamos en el rediseño del personaje a partir de su idea, una guía de uso y animación mixta para usarlo de intro en su trabajo.
           </p>
 
           <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: 'Rol', v: 'Rediseño y Rigging' },
-              { k: 'Cliente', v: 'Director Cine' },
-              { k: 'Año', v: '2024' },
+              { k: 'Rol', v: 'Rediseño y Animación' },
+              { k: 'Cliente', v: 'Director Cine en formación' },
+              { k: 'Año', v: '2025' },
               { k: 'Método', v: 'Frame x Frame + AE' }
             ].map((f) => (
               <div

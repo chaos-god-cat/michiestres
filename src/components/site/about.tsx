@@ -117,10 +117,10 @@ export function About() {
                 />
                 <div className="absolute bottom-4 left-4 right-4">
                   <PunkBadge variant="pink" className="mb-2">
-                    @ARTHEMYS_D
+                    Comisión encargada en VGen
                   </PunkBadge>
                   <p className="font-display text-xl text-foreground">
-                    &ldquo;El toque peludo en cada frame.&rdquo;
+                    &ldquo;El toque peludo en cada trabajo.&rdquo;
                   </p>
                 </div>
               </div>

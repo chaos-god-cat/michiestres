@@ -42,13 +42,11 @@ export function Icons() {
               Stickers e iconos <span className="neon-yellow">ready-to-print</span>.
             </h2>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Sets de pegatinas conceptuales y pins digitales con estética neón, street-art y graffiti.
-              Se entregan en trazados vectoriales limpios (<span className="text-foreground font-medium">SVG</span>)
-              y archivos transparentes de alta resolución (<span className="text-foreground font-medium">PNG</span>)
-              ideales para impresión die-cut o uso como badges oficiales en plataformas de streaming.
+              Sets variados de pegatinas tanto de creaciones originales como formado FanArt inspirados en la cultura Pop. Tengo conocimiento en el uso de vectores y mapa de bits para crear productos según las necesidades y tomando en cuenta las posibilidades del método de impresión.
+              ideales para impresión o uso como badges oficiales en plataformas de streaming.
             </p>
             <div className="flex flex-wrap gap-2 pt-1">
-              {['street-art', 'neón', 'die-cut', 'vectorial', 'punky', 'badges'].map((t) => (
+              {['Cultura Pop', 'Colorful', 'Bits', 'vectorial', 'Animal & Creatures', 'Merch'].map((t) => (
                 <PunkBadge key={t} variant="yellow">
                   {t}
                 </PunkBadge>

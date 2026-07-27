@@ -7,11 +7,11 @@ import { cn } from '@/lib/utils'
 
 const LINKS = [
   { href: '#sobre-mi', label: 'Sobre mí' },
-  { href: '#proceso', label: 'Proceso' },
-  { href: '#animaciones', label: 'Animaciones' },
+  { href: '#proceso', label: 'Proceso & Ilustración' },
+  { href: '#animaciones', label: 'Anime' },
   { href: '#fondos', label: 'Fondos' },
-  { href: '#iconos', label: 'Iconos' },
-  { href: '#ilustracion', label: 'Ilustración' },
+  { href: '#iconos', label: 'Stickers' },
+  { href: '#ilustracion', label: 'Galería' },
   { href: '#contacto', label: 'Contacto' },
 ]
 
@@ -57,7 +57,11 @@ export function PunkNav() {
         {/* Logo */}
         <a href="#top" className="group flex items-center gap-2">
           <span className="relative inline-flex h-8 w-8 items-center justify-center rounded-md bg-[#d8b4fe] text-[#07070f] font-display text-sm glow-pink">
-            W
+            <img
+              src="/gallery/Logo.png"
+              alt="Logo"
+              className="h-6 w-6 rounded-md object-cover"
+            />
             <span className="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-[#a78bfa] animate-blink" />
           </span>
           <span className="font-display text-sm tracking-tight">

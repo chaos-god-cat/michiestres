@@ -26,7 +26,7 @@ export function Illustration() {
         <div className="mt-10 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
           <div className="max-w-2xl">
             <h2 className="font-display text-4xl sm:text-5xl leading-[1.05] tracking-tight">
-              Diseño de personajes y <span className="neon-pink">piezas originales</span>.
+              Michi galería <span className="neon-pink">para los curiosos</span>.
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
               Mi trabajo ilustrativo explora mundos fantásticos y personajes con fuerte personalidad.
@@ -42,6 +42,7 @@ export function Illustration() {
         </div>
 
         {/* Galería de piezas estáticas */}
+        {/* Kauzuzuuu ayuda, como pongo algunos para video?? */}
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6">
           {ADDITIONAL_WORKS.map((work) => (
             <div

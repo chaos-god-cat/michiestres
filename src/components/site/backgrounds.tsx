@@ -31,7 +31,7 @@ export function Backgrounds() {
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
               Aunque es la rama en la que llevo menos tiempo, he aprendido rápido y he encontrado un profundo
-              cariño en este ámbito. Las comisiones se entregan <span className="text-foreground font-medium">seccionadas en capas independientes</span> listas para edición en post-producción, facilitando los efectos de paralaje y la integración de personajes.
+              cariño en este ámbito. Las comisiones se entregan <span className="text-foreground font-medium">seccionadas en base a los requerimientos del cliente</span> listas para edición en post-producción, facilitando los efectos de paralaje y la integración de personajes.
             </p>
           </div>
           <div className="max-w-md text-xs leading-relaxed text-muted-foreground border-l-2 border-[#9d4edd] pl-4 py-1">
@@ -150,7 +150,7 @@ function BackgroundSetCard({ set, isLarge }: { set: ArtworkSet; isLarge?: boolea
         {set.items.length > 1 && (
           <div className="inline-flex items-center gap-1.5 text-xs text-muted-foreground bg-white/5 border border-white/10 rounded-full px-3 py-1 font-mono-punk">
             <Layers size={12} className="text-[#9d4edd]" />
-            <span>Desliza para ver la separación por capas</span>
+            <span>Desliza para ver los valores</span>
           </div>
         )}
       </div>
