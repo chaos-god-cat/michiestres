@@ -40,7 +40,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-2',
     title: 'Guardián del más allá',
-    category: 'process',
+    category: 'illustration',
     description: 'Comisión para recordar a los amigos que ya no están, pero que siempre se mantendrán cerca de un modo u otro. Fue un encargo por medio de la plataforma VGen para público extranjero',
     year: '2025',
     role: 'Ilustración digital',
