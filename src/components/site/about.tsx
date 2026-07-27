@@ -189,7 +189,7 @@ export function About() {
                   },
                   {
                     n: String(
-                      (stats.categoryCounts.illustration ?? 2) +
+                      (stats.categoryCounts.illustration ?? 0) +
                         (stats.categoryCounts.pet ?? 0)
                     ),
                     l: 'Ilustraciones + mascotas',
