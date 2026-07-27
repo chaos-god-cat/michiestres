@@ -55,7 +55,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-3',
     title: 'Keyla',
-    category: 'pet',
+    category: 'illustration',
     description: 'Ilustración del personaje del mismo nombre para una jugadora de Dungeons & Dragons. La pieza fue realizada en Clip Studio Paint siguiendo sus referencias y ayudándola a mejorar su diseño, para posterior animación en After Effects.',
     year: '2025',
     role: 'Ilustración digital y Animación sutil',
@@ -71,7 +71,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-4',
     title: 'Un poco más de mi peludo trabajo',
-    category: 'illustration',
+    category: 'pet',
     description: '¡Usa las flechas o desliza para ver más comisiones en las que he trabajado!',
     year: '2023 - 2026',
     role: 'Ilustración',
@@ -132,7 +132,7 @@ export const ANIMATION_SETS: ArtworkSet[] = [
     ]
   },
     {
-    id: 'anim-set-4',
+    id: 'anim-set-5',
     title: 'Video musical "Reloj de Arena" por Aki Chan',
     category: 'animation',
     description: 'Auxiliar en color',
@@ -151,7 +151,7 @@ export const BACKGROUND_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-5',
     title: 'Recreaciones',
-    category: 'background',
+    category: 'illustration',
     description: 'El Jardín de las Palabras (Rain Garden) y Frieren Beyond the Journey\'s End,',
     year: '2024',
     role: 'Estudio de Fondos',
@@ -166,9 +166,9 @@ export const BACKGROUND_SETS: ArtworkSet[] = [
     ]
   },
   {
-    id: 'bg-set-1',
+    id: 'illus-set-6',
     title: 'Un vistazo al futuro',
-    category: 'background',
+    category: 'illustration',
     description: 'Ilustración de fondos para un director de animación en formación. El proyecto postulado para inversionistas en la Universidad Autónoma de Querétaro',
     year: '2025',
     role: 'Fondo de Animación',
@@ -190,7 +190,7 @@ export const STICKER_SETS: ArtworkSet[] = [
   {
     id: 'sticker-set-1',
     title: 'Stickers e iconos ready-to-print',
-    category: 'icon',
+    category: 'illustration',
     description: 'Assets listos para impresión y redes sociales. Incluye stickers de estilo street-art, iconos y gráficos de alto contraste. Desde lo tierno hasta lo meme',
     year: '2024',
     role: 'Diseño de Vector / Stickers',
