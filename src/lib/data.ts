@@ -55,7 +55,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-3',
     title: 'Keyla',
-    category: 'process',
+    category: 'illustration',
     description: 'Ilustración del personaje del mismo nombre para una jugadora de Dungeons & Dragons. La pieza fue realizada en Clip Studio Paint siguiendo sus referencias y ayudándola a mejorar su diseño, para posterior animación en After Effects.',
     year: '2025',
     role: 'Ilustración digital y Animación sutil',
@@ -71,7 +71,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-4',
     title: 'Un poco más de mi peludo trabajo',
-    category: 'process',
+    category: 'illustration',
     description: '¡Usa las flechas o desliza para ver más comisiones en las que he trabajado!',
     year: '2023 - 2026',
     role: 'Ilustración',
