@@ -210,7 +210,7 @@ export const STICKER_SETS: ArtworkSet[] = [
 export const ADDITIONAL_WORKS: Artwork[] = [
   //—los primeros dos son videos, hay que revisar —
   {
-    id: 'bocetos-1',
+    id: 'illus-set-7',
     title: 'Comisión de OC animada',
     category: 'animation',
     description: 'Personaje: Amelia Jackman',
@@ -223,9 +223,9 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 10
   },
   {
-    id: 'estatico-1',
+    id: 'illus-set-8',
     title: 'Emote de OC animado',
-    category: 'illustration',
+    category: 'animation',
     description: 'Pieza de la serie de gatos cósmicos lista para fondos de pantalla.',
     imageUrl: '/gallery/michigaleria_2.mp4',
     year: '2025',
