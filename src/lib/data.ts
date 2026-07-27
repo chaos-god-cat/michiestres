@@ -210,7 +210,7 @@ export const STICKER_SETS: ArtworkSet[] = [
 export const ADDITIONAL_WORKS: Artwork[] = [
   //—los primeros dos son videos, hay que revisar —
   {
-    id: 'illus-set-7',
+    id: 'anim-set-6',
     title: 'Comisión de OC animada',
     category: 'animation',
     description: 'Personaje: Amelia Jackman',
