@@ -210,7 +210,7 @@ export const STICKER_SETS: ArtworkSet[] = [
 export const ADDITIONAL_WORKS: Artwork[] = [
   //—los primeros dos son videos, hay que revisar —
   {
-    id: 'bocetos-1',
+    id: 'ame-1',
     title: 'Comisión de OC animada',
     category: 'animation',
     description: 'Personaje: Amelia Jackman',
@@ -223,7 +223,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 10
   },
   {
-    id: 'estatico-1',
+    id: 'ame-2',
     title: 'Emote de OC animado',
     category: 'illustration',
     description: 'Pieza de la serie de gatos cósmicos lista para fondos de pantalla.',
@@ -236,7 +236,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'vic-1',
     title: 'Victoria',
     category: 'illustration',
     description: 'Diseño e Ilustración de personaje original',
@@ -249,7 +249,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-        id: 'estatico-1',
+        id: 'vic-2',
     title: 'Victoria',
     category: 'illustration',
     description: 'Diseño e Ilustración de personaje original',
@@ -262,7 +262,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'esc-1',
     title: 'Práctica de escenario e integración de personaje',
     category: 'Escala de grises',
     description: '#Landscape #Cats #Illustration',
@@ -275,7 +275,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'esce-2',
     title: 'Práctica de escenario e integración de personaje',
     category: 'illustration',
     description: '#Landscape #Cats #Illustration',
@@ -288,7 +288,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'jaguar-1',
     title: 'Jaguar Girl',
     category: 'Escala de grises',
     description: 'Comisión de retrato de personaje original, estilo semirealista',
@@ -301,7 +301,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'jaguar-2',
     title: 'Retrato cósmico estático',
     category: 'illustration',
     description: 'Comisión de retrato de personaje original, estilo semirealista',
@@ -314,7 +314,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
       {
-    id: 'estatico-1',
+    id: 'juan-1',
     title: 'Planos de Juanburgueso',
     category: 'Diseño de Personaje',
     description: 'Se re diseño toda la idea del cliente y se establecieron guías de uso para adaptar a futuro su mascota',
@@ -327,7 +327,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'mavu-1',
     title: 'Mavuika',
     category: 'illustration',
     description: 'FanArt del personaje de Genshin Impact, Mavuika. Ilustración digital semirealista con inspiración anime',
@@ -340,7 +340,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'vic-3',
     title: 'Emote animado',
     category: 'animacion',
     description: 'Perfecto para plataformas digitales como twitch o discord',
