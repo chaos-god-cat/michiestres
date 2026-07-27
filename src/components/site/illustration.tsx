@@ -50,12 +50,23 @@ export function Illustration() {
               className="group relative overflow-hidden rounded-xl border border-white/10 bg-[#0c0c18] hover:border-[#ff1b6b]/40 transition-colors"
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-[#07070f]">
-                <img
-                  src={work.imageUrl}
-                  alt={work.title}
-                  loading="lazy"
-                  className="h-full w-full object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-110"
-                />
+                {/\.(mp4|webm|ogg|mov)$/i.test(work.imageUrl) ? (
+  <video
+    src={work.imageUrl}
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="h-full w-full object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-110"
+  />
+) : (
+  <img
+    src={work.imageUrl}
+    alt={work.title}
+    loading="lazy"
+    className="h-full w-full object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-110"
+  />
+)}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#07070f] via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
                   <div>
