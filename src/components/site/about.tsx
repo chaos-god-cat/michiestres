@@ -179,7 +179,7 @@ export function About() {
               {/* live counts centrados con el título */}
               <div className="mt-6 grid grid-cols-3 gap-3 max-w-lg mx-auto">
                 {[
-                  { n: stats.stats.worksCount ?? '18', l: 'Obras en portafolio' },
+                  { n: stats.stats.worksCount ?? '0', l: 'Obras en portafolio' },
                   {
                     n: String(
                       (stats.categoryCounts.animation ?? 0) +
