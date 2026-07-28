@@ -40,7 +40,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-2',
     title: 'Guardián del más allá',
-    category: 'animation',
+    category: 'pet',
     description: 'Comisión para recordar a los amigos que ya no están, pero que siempre se mantendrán cerca de un modo u otro. Fue un encargo por medio de la plataforma VGen para público extranjero',
     year: '2025',
     role: 'Ilustración digital',
@@ -264,7 +264,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     {
     id: 'estatico-1',
     title: 'Práctica de escenario e integración de personaje',
-    category: 'Escala de grises',
+    category: 'illustration',
     description: '#Landscape #Cats #Illustration',
     imageUrl: '/gallery/michigaleria_7.jpg',
     year: '2024',
@@ -290,7 +290,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     {
     id: 'estatico-1',
     title: 'Jaguar Girl',
-    category: 'Escala de grises',
+    category: 'illustration',
     description: 'Comisión de retrato de personaje original, estilo semirealista',
     imageUrl: '/gallery/michigaleria_9.jpg',
     year: '2025',
@@ -316,7 +316,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
       {
     id: 'estatico-1',
     title: 'Planos de Juanburgueso',
-    category: 'Diseño de Personaje',
+    category: 'illustration',
     description: 'Se re diseño toda la idea del cliente y se establecieron guías de uso para adaptar a futuro su mascota',
     imageUrl: '/gallery/michigaleria_11.png',
     year: '2025',
@@ -342,7 +342,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     {
     id: 'estatico-1',
     title: 'Emote animado',
-    category: 'animacion',
+    category: 'animation',
     description: 'Perfecto para plataformas digitales como twitch o discord',
     imageUrl: '/gallery/michigaleria_10.gif',
     year: '2025',
