@@ -249,7 +249,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-        id: 'estatico-1',
+        id: 'estatico-2',
     title: 'Victoria',
     category: 'illustration',
     description: 'Diseño e Ilustración de personaje original',
@@ -262,7 +262,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'estatico-3',
     title: 'Práctica de escenario e integración de personaje',
     category: 'illustration',
     description: '#Landscape #Cats #Illustration',
@@ -275,7 +275,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'estatico-4',
     title: 'Práctica de escenario e integración de personaje',
     category: 'illustration',
     description: '#Landscape #Cats #Illustration',
@@ -288,7 +288,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'estatico-5',
     title: 'Jaguar Girl',
     category: 'illustration',
     description: 'Comisión de retrato de personaje original, estilo semirealista',
@@ -301,7 +301,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'estatico-6',
     title: 'Retrato cósmico estático',
     category: 'illustration',
     description: 'Comisión de retrato de personaje original, estilo semirealista',
@@ -314,7 +314,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
       {
-    id: 'estatico-1',
+    id: 'estatico-7',
     title: 'Planos de Juanburgueso',
     category: 'illustration',
     description: 'Se re diseño toda la idea del cliente y se establecieron guías de uso para adaptar a futuro su mascota',
@@ -327,7 +327,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'estatico-8',
     title: 'Mavuika',
     category: 'illustration',
     description: 'FanArt del personaje de Genshin Impact, Mavuika. Ilustración digital semirealista con inspiración anime',
@@ -340,7 +340,7 @@ export const ADDITIONAL_WORKS: Artwork[] = [
     order: 11
   },
     {
-    id: 'estatico-1',
+    id: 'estatico-9',
     title: 'Emote animado',
     category: 'animation',
     description: 'Perfecto para plataformas digitales como twitch o discord',
@@ -414,13 +414,15 @@ export const WORKS: Artwork[] = [
 ]
 
 export function computeStats() {
-  // Juntamos todas las listas de obras
+  // Juntamos todas las listas posibles
   const allWorks = [
-    ...ILLUSTRATION_PROCESS_SETS,
-    ...ANIMATION_SETS,
-    ...BACKGROUND_SETS,
-    ...STICKER_SETS
+    ...(typeof ILLUSTRATION_PROCESS_SETS !== 'undefined' ? ILLUSTRATION_PROCESS_SETS : []),
+    ...(typeof ANIMATION_SETS !== 'undefined' ? ANIMATION_SETS : []),
+    ...(typeof BACKGROUND_SETS !== 'undefined' ? BACKGROUND_SETS : []),
+    ...(typeof STICKER_SETS !== 'undefined' ? STICKER_SETS : []),
+    ...(typeof ADDITIONAL_WORKS !== 'undefined' ? ADDITIONAL_WORKS : [])
   ]
+
   const categoryCounts: Record<string, number> = {
     animation: 0,
     illustration: 0,
@@ -429,14 +431,25 @@ export function computeStats() {
     process: 0,
     icon: 0
   }
-  // Contamos dinámicamente según el valor de 'category'
+
   allWorks.forEach((work) => {
-    if (work.category) {
-      categoryCounts[work.category] = (categoryCounts[work.category] || 0) + 1
-    }
+    if (!work || !work.category) return
+
+    // Si category es una lista ['animation', 'pet'] o una sola palabra 'animation'
+    const categories = Array.isArray(work.category) ? work.category : [work.category]
+
+    categories.forEach((cat) => {
+      if (typeof cat === 'string') {
+        // Convierte a minúsculas y quita espacios raros
+        const cleanCat = cat.toLowerCase().trim()
+        categoryCounts[cleanCat] = (categoryCounts[cleanCat] || 0) + 1
+      }
+    })
   })
-  // Para mantener compatibilidad con 'process'
-  categoryCounts.process = categoryCounts.illustration
+
+  // Sincronizamos process con illustration para que ambos funcionen
+  categoryCounts.process = categoryCounts.illustration || categoryCounts.process
+
   return {
     categoryCounts,
     stats: {
