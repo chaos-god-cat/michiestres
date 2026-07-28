@@ -24,7 +24,7 @@ export const ILLUSTRATION_PROCESS_SETS: ArtworkSet[] = [
   {
     id: 'illus-set-1',
     title: 'Comisión gatuna',
-    category: 'pet',
+    category: 'animation',
     description: 'Retrato de mascota hecho para un cliente que deseaba poder recordarla eternamente. Bajo esa premisa, busqué reinventar el significado de fallecer y mezclar los elementos para conectar con el cliente.',
     year: '2025',
     role: 'Ilustración digital y animación sutil',
