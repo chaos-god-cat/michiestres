@@ -149,9 +149,9 @@ export const ANIMATION_SETS: ArtworkSet[] = [
 // ─── SETS DE FONDOS DE ANIMACIÓN / LANDSCAPES ────────────────────────────────
 export const BACKGROUND_SETS: ArtworkSet[] = [
   {
-    id: 'illus-set-5',
+    id: 'anim-set-6',
     title: 'Recreaciones',
-    category: 'illustration',
+    category: 'animation',
     description: 'El Jardín de las Palabras (Rain Garden) y Frieren Beyond the Journey\'s End,',
     year: '2024',
     role: 'Estudio de Fondos',
