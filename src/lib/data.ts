@@ -414,24 +414,33 @@ export const WORKS: Artwork[] = [
 ]
 
 export function computeStats() {
+  // Juntamos todas las listas de obras
+  const allWorks = [
+    ...ILLUSTRATION_PROCESS_SETS,
+    ...ANIMATION_SETS,
+    ...BACKGROUND_SETS,
+    ...STICKER_SETS
+  ]
   const categoryCounts: Record<string, number> = {
-    process: ILLUSTRATION_PROCESS_SETS.length,
-    animation: ANIMATION_SETS.length,
-    background: BACKGROUND_SETS.length,
-    icon: STICKER_SETS.length,
-    illustration: ILLUSTRATION_PROCESS_SETS.length // 👈 Cambiamos el 2 por esto
+    animation: 0,
+    illustration: 0,
+    background: 0,
+    pet: 0,
+    process: 0,
+    icon: 0
   }
-  
+  // Contamos dinámicamente según el valor de 'category'
+  allWorks.forEach((work) => {
+    if (work.category) {
+      categoryCounts[work.category] = (categoryCounts[work.category] || 0) + 1
+    }
+  })
+  // Para mantener compatibilidad con 'process'
+  categoryCounts.process = categoryCounts.illustration
   return {
+    categoryCounts,
     stats: {
-      worksCount: String(
-        ILLUSTRATION_PROCESS_SETS.length +
-        ANIMATION_SETS.length +
-        BACKGROUND_SETS.length +
-        STICKER_SETS.length +
-        ADDITIONAL_WORKS.length
-      )
-    },
-    categoryCounts
+      worksCount: String(allWorks.length)
+    }
   }
 }
